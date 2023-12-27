@@ -1,10 +1,16 @@
+import { BrowserRouter, Route, Router } from 'react-router-dom';
 import './App.css';
+import Main from './pages/Main';
 
 function App() {
   return (
-    <div className="App">
-     메인 페이지
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Router>
+          <Route path='/' element={<Main/>} />
+        </Router>
+      </div>
+    </BrowserRouter>
   );
 }
 
