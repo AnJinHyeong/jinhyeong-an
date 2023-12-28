@@ -1,10 +1,14 @@
+import Area1 from "../components/Area1";
+import Area2 from "../components/Area2";
+
+import '../css/main.css'
+
 const Main = () => {
 
   return(
     <div className="main">
-      <div className="inner">
-        메인 페이지
-      </div>
+      <Area1 />
+      <Area2 />
     </div>
   )
 
