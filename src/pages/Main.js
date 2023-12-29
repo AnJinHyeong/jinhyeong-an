@@ -1,5 +1,6 @@
-import Area1 from "../components/Area1";
-import Area2 from "../components/Area2";
+import Chapter1 from "../components/Chapter1";
+import Mainbanner from "../components/Mainbanner";
+import Slogan from "../components/Slogan";
 
 import '../css/main.css'
 
@@ -7,8 +8,9 @@ const Main = () => {
 
   return(
     <div className="main">
-      <Area1 />
-      <Area2 />
+      <Mainbanner />
+      <Slogan />
+      <Chapter1 />
     </div>
   )
 

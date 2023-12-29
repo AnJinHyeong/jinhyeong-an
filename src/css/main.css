@@ -1,27 +1,100 @@
 /* 메인페이지 스타일 */
 .main{
-
-}
-
-/* 네비게이션 바 */
-.nav{
-  height: 60px;
-  width: 100%;
-}
-
-/* 첫번째 섹션 영역 스타일 */
-.area1{
-  width: 100%;
-  height: 100vh;
-  display: flex;
   position: relative;
 }
-.area1 .inner {
-  width: 80vw;
+
+/* 배너 이미지 */
+.mainbanner{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/banner1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.mainbanner .inner {
+
+}
+
+/* 슬로건 영역 */
+.slogan {
+  height: 100vh;
+  position: relative;
+  background-color: #FFF;
+}
+.slogan .inner{
   height: 100%;
 }
-.area1 .nav_bar {
-  width: 20vw;
+.slogan .inner .contant{
+  width: 100%;
+  max-width: 1280px;
   height: 100%;
-  background-color: #333;
+  margin: 0 auto;
+  padding: 70px 40px 0;
+}
+.slogan .inner .contant > p{
+  font-size: 62px;
+  font-weight: 500;
+  color: #0959A9;
+  font-family: 'Noto Serif KR', serif;
+  margin-bottom: 42px;
+}
+.downpoint{
+  position: absolute;
+  bottom: 30px;
+  right: 50%;
+}
+.icon.down{
+  font-size: 30px;
+  color: #0959A9;
+  cursor: pointer;
+}
+
+/* 챕터1 영역 */
+.chapter1{
+  height: 100vh;
+  position: relative;
+  background-color: #FFF;
+}
+.chapter1 .inner{
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.chapter1 .inner .profile{
+  width: 100%;
+  max-width: 1280px;
+  height: 300px;
+  padding: 0 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-box{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("../assets/짱구.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line{
+  max-width: 1280px;
+  margin: 30px auto 0;
+  border-bottom: 2px solid #0959A9;
 }
