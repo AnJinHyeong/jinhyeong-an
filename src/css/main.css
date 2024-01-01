@@ -120,14 +120,15 @@
   padding: 0 15px;
   margin: 10px auto 20px;
 }
-.skills-item .skills-tiems {
+.skills-tiems {
   display: flex;
   justify-content: start;
   align-items: center;
   width: 100%;
   white-space: normal;
+  flex-wrap: wrap;
 }
-.skills-item .skills-tiems li{
+.skills-tiems li{
   font-size: 18px;
   color: #333;
   border-radius: 6px;
@@ -138,7 +139,7 @@
   justify-content: center;
   align-items: center;
 }
-.skills-item .skills-tiems li:last-child{
+.skills-tiems li:last-child{
   margin-right: 0;
 }
 .skill-icon{
