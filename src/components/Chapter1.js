@@ -7,9 +7,7 @@ const Chapter1 = () => {
         <div className="profile">
           <h2 className="title">ABOUT</h2>
           <div className="protile-item">
-            <div className="img-box">
-              <span className="profile-img"></span>
-            </div>
+            <img className='profile-img' src={require('../assets/profile.jpeg')}/>
             <div className="profile-info">
               <h2 className="profile-name">안진형</h2>
               <p className="profile-birth">1997.12.17</p>
@@ -18,41 +16,29 @@ const Chapter1 = () => {
           </div>
         </div>
 
-        <div className="line"></div>
-
         <div className="skill">
           <h2 className="title">SKILLS ABILITY</h2>
           <div className="skills-item">
-            <p className="item-contant">사용하기 수월해요.</p>
-            <ul className="skills-tiem-box">
-              <li>React1</li>
-              <li>React2</li>
-              <li>React3</li>
-              <li>React4</li>
-              <li>React5</li>
-              <li>React6</li>
-              <li>React7</li>
-              <li>React8</li>
-              <li>React9</li>
-              <li>React10</li>
+            <ul className="skills-tiems">
+              <li><img className='skill-icon' src={require('../assets/skill-icon/js.png')}/>Javascript(ES6+)</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/react.png')}/>React.js</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/html5.png')}/>HTML5</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/css3.png')}/>CSS3</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/sass.png')}/>SASS</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/git.png')}/>Git</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/github.png')}/>GitHub</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/jquery.png')}/>jQuery</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/java.png')}/>Java</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/mysql.png')}/>mysql</li>
+              <li><img className='skill-icon oracle' src={require('../assets/skill-icon/oracle.png')}/>oracl</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/python.png')}/>python</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/spring.png')}/>Spring</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/jsp.png')}/>JSP</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/c.png')}/>C</li>
+              <li><img className='skill-icon' src={require('../assets/skill-icon/c#.png')}/>C#</li>
             </ul>
           </div>
-          <div className="skills-item">
-            <p className="item-contant">사사용하는데 불편함 없어요.</p>
-            <ul className="skills-tiem-box">
-              <li>Java1</li>
-              <li>Java2</li>
-              <li>Java3</li>
-              <li>Java4</li>
-              <li>Java5</li>
-            </ul>
-          </div>
-          <div className="skills-item">
-            <p className="item-contant">사용해 봤어요.</p>
-            <ul className="skills-tiem-box">
-              <li>JQuery</li>
-            </ul>
-          </div>
+        
         </div>
 
       </div>
