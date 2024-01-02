@@ -17,9 +17,6 @@
   right: 0;
   bottom: 0;
 }
-.mainbanner .inner {
-
-}
 
 /* 슬로건 영역 */
 .slogan {
@@ -52,7 +49,6 @@
 .icon.down{
   font-size: 30px;
   color: #0959A9;
-  cursor: pointer;
 }
 
 /* 챕터1 영역 */
@@ -67,17 +63,18 @@
   color: #0959A9;
 }
 
-.profile{
+.about{
   max-width: 1280px;
   padding: 0 40px;
   margin: 0 auto;
 }
-.profile .title{
+.title{
   font-weight: 400;
   font-size: 20px;
   border-bottom: 1px solid #0959A9;
+  padding-bottom: 4px;
 }
-.protile-item{
+.profile{
   display: flex;
   align-items: center;
   justify-content: start;
@@ -100,25 +97,21 @@
   margin-bottom: 7px;
 }
 .profile-birth{
-  margin-bottom: 7px;
+  font-size: 18px;
+  margin-left: 7px;
 }
 
 /* 기술 소개 영역 */
 .skill{
   max-width: 1280px;
-  margin: 30px auto 50px;
+  margin: 30px auto;
   padding: 0 40px;
-}
-.skill .title{
-  font-weight: 400;
-  font-size: 20px;
-  border-bottom: 1px solid #0959A9;
 }
 .skills-item{
   width: 100%;
   color: #333;
   padding: 0 15px;
-  margin: 10px auto 20px;
+  margin: 20px auto;
 }
 .skills-tiems {
   display: flex;
@@ -135,6 +128,7 @@
   border: 1px solid #5f84a9;
   padding: 6px 10px;
   margin-right: 12px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,4 +143,101 @@
 }
 .skill-icon.oracle{
   height: 13px;
+}
+
+/* 커리어 영역 */
+.cureer{
+  max-width: 1280px;
+  margin: 30px auto;
+  padding: 0 40px;
+}
+.cureer-item{
+  width: 100%;
+  color: #333;
+  padding: 0 15px;
+  margin: 20px auto;
+}
+.cureer-row{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 0;
+  margin: 0 auto 60px;
+}
+.cureer-col-3{
+  width: 30%;
+  padding: 0 15px;
+  font-size: 13px;
+}
+.cureer-col-3 strong{
+  font-size: 20px;
+  margin-right: 5px;
+  display: block;
+  margin-bottom: 5px;
+}
+.cureer-col-3 strong.sub{
+  font-size: 15px;
+  margin: 0;
+}
+.cureer-col-3 .sub .company{
+  margin-right: 5px;
+}
+.cureer-col-3 .sub .department{
+  font-size: 12px;
+}
+.cureer-col-7{
+  width: 70%;
+  padding: 0 15px;
+}
+.cureer-col-7 .line{
+  border-top: 1px solid #000;
+  margin: 10px auto;
+}
+.col-row{
+
+}
+.col-row-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 3px;
+  margin-bottom: 10px;
+}
+
+.col-row-contant{
+  font-size: 20px;
+  line-height: 1.2 !important;
+}
+
+/* 챕터2 영역 */
+.chapter2{
+  height: 100vh;
+  position: relative;
+  background-color: #FFF;
+}
+.chapter2 .inner{
+  height: 100vh;
+  padding-top: 20px;
+  color: #0959A9;
+}
+
+
+/* 챕터2 영역 */
+.chapter3{
+  height: 100vh;
+  position: relative;
+  background-color: #FFF;
+}
+.chapter3 .inner{
+  height: 100vh;
+  padding-top: 20px;
+  color: #0959A9;
+}
+
+/* 푸터 영역 */
+.footer{
+  background-color: #FFF;
+}
+.footer .inner{
+
 }

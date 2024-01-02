@@ -1,11 +1,7 @@
 const Mainbanner = () => {
 
   return(
-    <div className="mainbanner">
-      <div className="inner">
-
-      </div>
-    </div>
+    <div className="mainbanner"></div>
   )
 
 }

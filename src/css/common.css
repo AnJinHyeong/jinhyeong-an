@@ -1,11 +1,17 @@
+/* 폰트 */
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Common */
 * {
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   box-sizing: border-box;
-
-  font-family: 'Montserrat','GmarketSans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+  font-family: 'SUIT-Regular', 'Montserrat','GmarketSans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
   /* font-family: 'Diphylleia', serif;
   font-family: 'Exo 2', sans-serif;
   font-family: 'Inter', sans-serif; */

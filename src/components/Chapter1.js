@@ -1,17 +1,23 @@
+
+/**
+ * Chapter1
+ * 개인 역량 소개 영역
+ */
 const Chapter1 = () => {
 
   return(
     <div className="chapter1">
       <div className="inner">
 
-        <div className="profile">
+        <div className="about">
           <h2 className="title">ABOUT</h2>
-          <div className="protile-item">
+          <div className="profile">
             <img className='profile-img' src={require('../assets/profile.jpeg')}/>
             <div className="profile-info">
-              <h2 className="profile-name">안진형</h2>
-              <p className="profile-birth">1997.12.17</p>
-              <span>안녕하세요.</span>
+              <h2 className="profile-name">
+                안진형
+                <span className="profile-birth">1997.12.17</span>
+              </h2>
             </div>
           </div>
         </div>
@@ -38,8 +44,9 @@ const Chapter1 = () => {
               <li><img className='skill-icon' src={require('../assets/skill-icon/c#.png')}/>C#</li>
             </ul>
           </div>
-        
         </div>
+
+        
 
       </div>
     </div>
