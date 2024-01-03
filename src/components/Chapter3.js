@@ -1,9 +1,7 @@
-
 /**
  * Chapter3
  * 프로젝트 설명 영역
  */
-
 const Chapter3 = () => {
 
   return(

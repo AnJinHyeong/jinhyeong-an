@@ -4,6 +4,10 @@ import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
 
 
+/**
+ * slogan
+ * 나의 개발 슬로건 소개 영역
+ */
 const Slogan = () => {
 
   const downRef = useRef();
@@ -11,7 +15,7 @@ const Slogan = () => {
   useEffect(() => {
     let tl = gsap.timeline(); //순서대로 gsap 사용하기
     tl.to(downRef.current, {
-      y: 10,
+      y: 13,
       yoyo: true,
       duration: 0.8, //애니메이션 적용시간
       ease: "bounce.out", //튕기면서 마무리

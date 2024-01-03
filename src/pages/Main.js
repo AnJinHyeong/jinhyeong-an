@@ -5,6 +5,7 @@ import { SectionsContainer, Section, Footer } from 'react-fullpage';
 
 import '../css/main.css'
 import Chapter2 from "../components/Chapter2";
+import Chapter3 from "../components/Chapter3";
 
 const Main = () => {
 

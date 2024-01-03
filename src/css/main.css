@@ -58,7 +58,7 @@
   background-color: #FFF;
 }
 .chapter1 .inner{
-  height: 100vh;
+  height: 100%;
   padding-top: 60px;
   color: #0959A9;
 }
@@ -136,13 +136,36 @@
 .skills-tiems li:last-child{
   margin-right: 0;
 }
-.skill-icon{
+.skills-tiems li > .skill-icon{
   width: 18px;
   height: 18px;
   margin-right: 5px;
 }
-.skill-icon.oracle{
+.skills-tiems li > .skill-icon.oracle{
   height: 13px;
+}
+.skills-tiems.row li{
+  font-size: 13px;
+  color: #333;
+  border-radius: 6px;
+  border: 1px solid #5f84a9;
+  padding: 4px 6px;
+  margin-right: 12px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-tiems.row li:last-child{
+  margin-right: 0;
+}
+.skills-tiems.row li > .skill-icon{
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+}
+.skills-tiems.row li > .skill-icon.oracle{
+  height: 11px;
 }
 
 /* 커리어 영역 */
@@ -203,10 +226,16 @@
   padding: 0 3px;
   margin-bottom: 10px;
 }
-
 .col-row-contant{
   font-size: 20px;
   line-height: 1.2 !important;
+}
+.col-row-sub-contant{
+  font-size: 16px;
+  line-height: 1.2 !important;
+  margin-top: 7px;
+  margin-left: 15px;
+  color: #8c8f92;
 }
 
 /* 챕터2 영역 */
@@ -216,7 +245,7 @@
   background-color: #FFF;
 }
 .chapter2 .inner{
-  height: 100vh;
+  height: 100%;
   padding-top: 20px;
   color: #0959A9;
 }
@@ -229,7 +258,7 @@
   background-color: #FFF;
 }
 .chapter3 .inner{
-  height: 100vh;
+  height: 100%;
   padding-top: 20px;
   color: #0959A9;
 }
