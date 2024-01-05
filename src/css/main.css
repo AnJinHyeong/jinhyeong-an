@@ -51,6 +51,16 @@
   color: #0959A9;
 }
 
+/* 챕터 영역 */
+.chapter{
+  height: 100%;
+  position: relative;
+  background-color: #FFF;
+}
+.chapter .inner{
+
+}
+
 /* 챕터1 영역 */
 .chapter1{
   height: 100vh;
@@ -168,10 +178,22 @@
   height: 11px;
 }
 
+
+/* 챕터2 영역 */
+.chapter2{
+  /* height: 100%; */
+  position: relative;
+  background-color: #FFF;
+}
+.chapter2 .inner{
+  /* height: 100%; */
+  color: #0959A9;
+}
+
 /* 커리어 영역 */
 .cureer{
   max-width: 1280px;
-  margin: 30px auto;
+  margin: 0 auto;
   padding: 0 40px;
 }
 .cureer-item{
@@ -186,6 +208,9 @@
   justify-content: start;
   padding: 0;
   margin: 0 auto 60px;
+}
+.cureer-row:last-child{
+  margin-bottom: 0;
 }
 .cureer-col-3{
   width: 30%;
@@ -238,35 +263,80 @@
   color: #8c8f92;
 }
 
-/* 챕터2 영역 */
-.chapter2{
-  height: 100vh;
-  position: relative;
-  background-color: #FFF;
-}
-.chapter2 .inner{
-  height: 100%;
-  padding-top: 20px;
-  color: #0959A9;
-}
-
 
 /* 챕터2 영역 */
 .chapter3{
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   background-color: #FFF;
 }
 .chapter3 .inner{
   height: 100%;
-  padding-top: 20px;
+  padding: 40px 0;
   color: #0959A9;
+}
+.project{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.grid{
+  padding: 0 20px;
+  margin: 20px auto;
+}
+.grid_list{
+  grid-column-gap: 8px;
+  grid-row-gap: 28px;
+  -webkit-column-gap: 8px;
+  -moz-column-gap: 8px;
+  column-gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  row-gap: 28px;
+}
+.grid_item{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+}
+.grid_item .item_inner{
+  background-color: #fff;
+  border-radius: 12px;
+  display: block;
+}
+.item_thumb{
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+}
+.location_img{
+  height: auto;
+  width: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
 }
 
 /* 푸터 영역 */
-.footer{
+.contact{
+  position: relative;
   background-color: #FFF;
+  margin-bottom: 60px;
 }
-.footer .inner{
-
+.contact .inner{
+  height: 100%;
+  padding-top: 40px;
+  color: #0959A9;
+}
+.contact-box{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
 }

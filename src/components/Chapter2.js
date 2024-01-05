@@ -106,14 +106,11 @@ const Chapter2 = () => {
                   <div className='col-row-item'>
                     <p className='col-row-contant'>데이터 가공/수집</p>
                     <p className="col-row-sub-contant">다량의 데이터 라벨링 작업</p>
+                    <p className="col-row-sub-contant">구글에서 필요한 다량의 데이터를 크롤링하여 수집 및 분류 작업</p>
                   </div>
                   <div className='col-row-item'>
-                    <p className='col-row-contant'>프로젝트 관리 매니저</p>
-                    <p className="col-row-sub-contant">프로젝트의 필요한 인력 및 데이터를 계산하여 공수일자 산정</p>
-                  </div>
-                  <div className='col-row-item'>
-                    <p className='col-row-contant'>데이터 크롤링</p>
-                    <p className="col-row-sub-contant">구글에서 필요한 데이터를 크롤링하여 수집 및 분류 작업</p>
+                    <p className='col-row-contant'>프로젝트 매니저</p>
+                    <p className="col-row-sub-contant">프로젝트의 필요한 데이터 및 일자 확인 후 프로젝트 계획</p>
                   </div>
                   <div className='col-row-item'>
                     <p className='col-row-contant'>SKILLS</p>

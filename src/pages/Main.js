@@ -1,11 +1,10 @@
-import Chapter1 from "../components/Chapter1";
+import { SectionsContainer, Section, Footer } from 'react-fullpage';
 import Mainbanner from "../components/Mainbanner";
 import Slogan from "../components/Slogan";
-import { SectionsContainer, Section, Footer } from 'react-fullpage';
+import Chapter from "../components/Chapter";
 
 import '../css/main.css'
-import Chapter2 from "../components/Chapter2";
-import Chapter3 from "../components/Chapter3";
+import Contact from '../components/Contact';
 
 const Main = () => {
 
@@ -26,9 +25,8 @@ const Main = () => {
       </SectionsContainer> */}
       <Mainbanner />
       <Slogan />
-      <Chapter1 />
-      <Chapter2 />
-      <Footer/>
+      <Chapter />
+      <Contact />
     </div>
   )
 
