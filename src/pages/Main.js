@@ -16,17 +16,13 @@ const Main = () => {
 
   return(
     <div className="main">
-      {/* <SectionsContainer {...options}>
-        <Section><Mainbanner /></Section>
-        <Section><Slogan /></Section>
-        <Section><Chapter1 /></Section>
-        <Section><Chapter2 /></Section>
-        <Footer/>
-      </SectionsContainer> */}
-      <Mainbanner />
-      <Slogan />
-      <Chapter />
-      <Contact />
+      <SectionsContainer {...options}>
+        <Mainbanner />
+        <Slogan />
+        <Chapter />
+        <Contact />
+      </SectionsContainer>
+      
     </div>
   )
 
