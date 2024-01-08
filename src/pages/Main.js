@@ -9,20 +9,23 @@ import Contact from '../components/Contact';
 const Main = () => {
 
   let options = {
-    anchors: ['sectionOne', 'sectionTwo', 'sectionThree', 'sectionFour'], // the anchors for each sections
-    delay: 700, // the scroll animation speed
+    anchors: ['sectionOne', 'sectionTwo', 'sectionThree', 'sectionFour', 'sectionFive', 'sectionSix', 'sectionSeven'],
+    delay: 700,
     navigation: false,
   };
 
   return(
     <div className="main">
-      <SectionsContainer {...options}>
+      {/* <SectionsContainer {...options}>
         <Mainbanner />
         <Slogan />
         <Chapter />
         <Contact />
-      </SectionsContainer>
-      
+      </SectionsContainer> */}
+      <Mainbanner />
+      <Slogan />
+      <Chapter />
+      <Contact />
     </div>
   )
 

@@ -16,62 +16,44 @@ const Chapter3 = () => {
 
               <div className='grid_item'>
                 <a className='item_inner'>
-                  <div className='item_thumb'>
-                    <div className='location_img'>
-                      {/* 이미지 영역 */}
-                    </div>
+                  <div className='project-thumb'>
+                    <div className='project-img project1'>{/* 이미지 영역 */}</div>
                   </div>
-                  <div className='item_info'>
-                    <div className='item_type'>
-                      <p>카페</p>
-                    </div>
-                    <p className='item_name'>
-                    📍 이디야 카페
-                    </p>
-                    <div className='item_content'>
-                      
-                    </div>
+                  <div className='project-info'>
+                    <p className="project-title">안진형 포트폴리오</p>
+                  </div>
+                </a>
+              </div>
+
+              <div className='grid_item'>
+                <a className='item_inner'>
+                  <div className='project-thumb'>
+                    <div className='project-img project2'>{/* 이미지 영역 */}</div>
+                  </div>
+                  <div className='project-info'>
+                    <p className="project-title">DAILY DIARY</p>
                   </div>
                 </a>
               </div>
               
               <div className='grid_item'>
                 <a className='item_inner'>
-                  <div className='item_thumb'>
-                    <div className='location_img'>
-                      {/* 이미지 영역 */}
-                    </div>
+                  <div className='project-thumb'>
+                    <div className='project-img project3'>{/* 이미지 영역 */}</div>
                   </div>
-                  <div className='item_info'>
-                    <div className='item_type'>
-                      <p>카페</p>
-                    </div>
-                    <p className='item_name'>
-                    📍 이디야 카페
-                    </p>
-                    <div className='item_content'>
-                      
-                    </div>
+                  <div className='project-info'>
+                    <p className="project-title">Fun_ding</p>
                   </div>
                 </a>
               </div>
+
               <div className='grid_item'>
                 <a className='item_inner'>
-                  <div className='item_thumb'>
-                    <div className='location_img'>
-                      {/* 이미지 영역 */}
-                    </div>
+                  <div className='project-thumb'>
+                    <div className='project-img project4'>{/* 이미지 영역 */}</div>
                   </div>
-                  <div className='item_info'>
-                    <div className='item_type'>
-                      <p>카페</p>
-                    </div>
-                    <p className='item_name'>
-                    📍 이디야 카페
-                    </p>
-                    <div className='item_content'>
-                      
-                    </div>
+                  <div className='project-info'>
+                    <p className="project-title">BOOKin</p>
                   </div>
                 </a>
               </div>

@@ -6,11 +6,9 @@ const Chapter = () => {
 
   return(
     <div className="chapter">
-      <div className="inner">
-        <Chapter1 />
-        <Chapter2 />
-        <Chapter3 />
-      </div>
+      <Chapter1 />
+      <Chapter2 />
+      <Chapter3 />
     </div>
   )
 
