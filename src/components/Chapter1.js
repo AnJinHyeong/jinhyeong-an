@@ -4,6 +4,9 @@
  */
 const Chapter1 = () => {
 
+  const pageMoveGithub = () => {
+  }
+
   return(
     <div className="chapter1">
       <div className="inner">
@@ -20,7 +23,7 @@ const Chapter1 = () => {
               </div>
               <div className='profile-item'>
                 <p className='profile-contant'>
-                  안녕하세요, 새로운 배움으로 끊임없는 성장 하며 개발을 즐기는 개발자 안진형 입니다.
+                  안녕하세요, 새로운 배움으로 끊임없이 성장 하며 개발을 즐기는 프론트엔드 개발자 안진형 입니다.
                 </p>
                 <p className='profile-contant'>
                   연성대학교 졸업 후 KH정보교육원에서 개발을 배워 현재는 프론트엔드 개발을 하고 있습니다.
@@ -30,6 +33,12 @@ const Chapter1 = () => {
                 <ul className="skills-tiems profile">
                   <li>Frontend</li>
                   <li>React</li>
+                </ul>
+              </div>
+              <div className='profile-item'>
+                <ul className="skills-tiems pagelink">
+                  <li className='github'>Github</li>
+                  <li className='linkedin'>Linkedin</li>
                 </ul>
               </div>
             </div>

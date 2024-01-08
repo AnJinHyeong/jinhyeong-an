@@ -69,8 +69,8 @@ const Chapter2 = () => {
                     <p className="col-row-sub-contant">RAM, CPU 온도 체크 및 사용가능 공간 체크</p>
                   </div>
                   <div className='col-row-item'>
-                    <p className='col-row-contant'>Android 문자 자동 전송 앱앱 개발</p>
-                    <p className="col-row-sub-contant">등록된 조건에 부합된 문자가 올 경우 설정한 번호로 해당 문자 송신</p>
+                    <p className='col-row-contant'>Android 문자 자동 전송 앱 개발</p>
+                    <p className="col-row-sub-contant">등록된 조건에 부합된 문자가 올 경우 설정한 번호로 해당 문자 자동 송신</p>
                   </div>
                   <div className='col-row-item'>
                     <p className='col-row-contant'>SKILLS</p>
