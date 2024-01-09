@@ -1,0 +1,82 @@
+/* 모달 공통 스타일 */
+.modal {
+  position: fixed;
+  display: flex;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, .4);
+  z-index: 9;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-inner{
+  background-color: #FFF;
+  width:  70vw;
+  max-width: 730px;
+  height: 90vh;
+  padding: 40px 50px;
+}
+.modal-title > .title{
+  font-size: 32px;
+  font-weight: 700;
+  border-bottom: none;
+  margin-bottom: 28px;
+}
+.modal-mainimg{
+  width: 100%;
+  height: 300px;
+  margin-bottom: 38px;
+}
+.modal-mainimg > .img{
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/project-img/anjinhyeong.png');
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.modal-prjinfo{
+  
+}
+.modal-prjinfo > .info-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 9px;
+  font-size: 14px;
+}
+.modal-prjinfo > .info-item >.info-title{
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+.modal-prjinfo > .info-item > .info-title > strong{
+  border: 1px solid #0959A9;
+  border-radius: 4px;
+  padding: 4px 6px;
+}
+.modal-prjinfo > .info-item > .info-contant{
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+.modal-prjinfo > .info-item > .info-contant > strong{
+  border: 1px solid #0959A9;
+  border-radius: 4px;
+  padding: 4px 6px;
+  margin-right: 8px;
+}
+.modal-prjinfo > .info-item > .info-contant > strong:last-child{
+  margin-right: 0;
+}
+.modal-prjinfo > .info-item > .info-contant > strong .skill-icon{
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+}
+.modal-prjinfo > .info-item > .info-contant > strong.writing{
+  border: none;
+  padding: 0;
+}
