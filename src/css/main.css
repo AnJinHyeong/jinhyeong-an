@@ -172,24 +172,23 @@
 }
 .skills-tiems.pagelink .github{
   color: #333;
-  /* background-color: #333; */
   border: 1px solid #333;
-}
-.skills-tiems.pagelink .github .github-icon{
-  width: 14px;
-  height: 14px;
-  margin-right: 3px;
 }
 .skills-tiems.pagelink .linkedin{
   color: #0A66C2;
   background-color: #FFF;
-  /* border: 1px solid #0A66C2; */
 }
-.skills-tiems.pagelink .linkedin .likedin-icon{
+.skills-tiems.pagelink .gmail{
+  color: #c61c19;
+  border: 1px solid #EB4131;
+}
+.profile-icon{
   width: 14px;
   height: 14px;
   margin-right: 3px;
 }
+
+
 
 
 
@@ -443,7 +442,20 @@
 .contact{
   position: relative;
   background-color: #FFF;
-  margin-bottom: 60px;
 }
 .contact-box{
+}
+.contact-item{
+  width: 70vw;
+  height: 500px;
+  border: 1px solid #0959A9;
+  margin: 30px auto;
+}
+.contact-item-box{
+  padding: 10px 15px;
+  margin: 0 auto;
+  width: 80%;
+}
+.contact-title{
+
 }

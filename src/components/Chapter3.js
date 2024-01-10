@@ -1,4 +1,5 @@
-import Projectmodal1 from "../utils/Projectmodal1";
+import Projectmodal1 from "./Projectmodal1";
+import Projectmodal2 from "./Projectmodal2";
 import '../css/modal.css'
 import { useState } from "react";
 
@@ -9,13 +10,16 @@ import { useState } from "react";
 const Chapter3 = () => {
   
   const [prjModal1, setPrjModal1] = useState(false);
+  const [prjModal2, setPrjModal2] = useState(false);
+
 
 
   const modalFlagCon = (val) => {
     console.log('modalFlagCon', val)
     if(val === 'prj1'){
-      console.log(prjModal1)
       setPrjModal1(!prjModal1)
+    } else if(val === 'prj2'){
+      setPrjModal2(!prjModal2)
     }
   }
 
@@ -41,7 +45,7 @@ const Chapter3 = () => {
               </div>
 
               <div className='grid_item'>
-                <a className='item_inner'>
+                <a className='item_inner' onClick={() => {modalFlagCon('prj2')}}>
                   <div className='project-thumb'>
                     <div className='project-img project2'>{/* 이미지 영역 */}</div>
                   </div>
@@ -82,6 +86,11 @@ const Chapter3 = () => {
 
       <Projectmodal1 
         displayFlag={prjModal1}
+        modalFlagCon={modalFlagCon}
+      />
+
+      <Projectmodal2
+        displayFlag={prjModal2}
         modalFlagCon={modalFlagCon}
       />
     </div>

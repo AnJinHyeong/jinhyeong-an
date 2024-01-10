@@ -43,12 +43,16 @@ const Chapter1 = () => {
               <div className='profile-item'>
                 <ul className="skills-tiems pagelink">
                   <li className='github' onClick={() => openGithub()}>
-                    <img className='github-icon' src={require('../assets/img/skill-icon/github.png')}/>
+                    <img className='profile-icon' src={require('../assets/img/skill-icon/github.png')}/>
                     Github
                   </li>
                   <li className='linkedin' onClick={() => openLikedin()}>
-                    <img className='likedin-icon' src={require('../assets/img/skill-icon/likedin.png')}/>
+                    <img className='profile-icon' src={require('../assets/img/skill-icon/likedin.png')}/>
                     Linkedin
+                  </li>
+                  <li className='gmail' onClick={() => {}}>
+                    <img className='profile-icon' src={require('../assets/img/skill-icon/gmail.png')}/>
+                    Gmail
                   </li>
                 </ul>
               </div>
