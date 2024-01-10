@@ -34,14 +34,14 @@ const Chapter2 = () => {
                     <p className='col-row-contant'>SKILLS</p>
                     <p className='col-row-sub-contant'>
                      <ul className="skills-tiems row">
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/js.png')}/>Javascript(ES6+)</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/react.png')}/>React.js</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/html5.png')}/>HTML5</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/css3.png')}/>CSS3</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/git.png')}/>Git</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/java.png')}/>Java</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/mysql.png')}/>mysql</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/spring.png')}/>Spring</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript(ES6+)</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/react.png')}/>React.js</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML5</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS3</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/git.png')}/>Git</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/mysql.png')}/>mysql</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/spring.png')}/>Spring</li>
                       </ul>
                     </p>
                   </div>
@@ -76,15 +76,15 @@ const Chapter2 = () => {
                     <p className='col-row-contant'>SKILLS</p>
                     <p className='col-row-sub-contant'>
                       <ul className="skills-tiems row">
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/js.png')}/>Javascript(ES6+)</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/html5.png')}/>HTML5</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/css3.png')}/>CSS3</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/git.png')}/>Git</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/jquery.png')}/>jQuery</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/java.png')}/>Java</li>
-                        <li><img className='skill-icon oracle' src={require('../assets/skill-icon/oracle.png')}/>oracl</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/jsp.png')}/>JSP</li>
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/c#.png')}/>C#</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript(ES6+)</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML5</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS3</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/git.png')}/>Git</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/jquery.png')}/>jQuery</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
+                        <li><img className='skill-icon oracle' src={require('../assets/img/skill-icon/oracle.png')}/>oracl</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/jsp.png')}/>JSP</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/c#.png')}/>C#</li>
                       </ul>
                     </p>
                   </div>
@@ -116,7 +116,7 @@ const Chapter2 = () => {
                     <p className='col-row-contant'>SKILLS</p>
                     <p className='col-row-sub-contant'>
                       <ul className="skills-tiems row">
-                        <li><img className='skill-icon' src={require('../assets/skill-icon/python.png')}/>python</li>
+                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/python.png')}/>python</li>
                       </ul>
                     </p>
                   </div>
