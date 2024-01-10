@@ -32,7 +32,7 @@
 .modal-mainimg > .img{
   width: 100%;
   height: 100%;
-  background-image: url('../assets/project-img/anjinhyeong.png');
+  background-image: url('../assets/img/project-banner/anjinhyeong.png');
   background-size: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@
   align-items: center;
 }
 .modal-prjinfo > .info-item > .info-title > strong{
-  border: 1px solid #0959A9;
+  /* border: 1px solid #0959A9; */
   border-radius: 4px;
   padding: 4px 6px;
 }
@@ -79,4 +79,14 @@
 .modal-prjinfo > .info-item > .info-contant > strong.writing{
   border: none;
   padding: 0;
+}
+.modal-prjinfo > .info-item > .info-contant > strong.writing.open{
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.modal-line{
+  margin: 20px 0;
+  border-bottom: 1px solid #0959A9;
 }
