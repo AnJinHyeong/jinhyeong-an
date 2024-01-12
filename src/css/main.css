@@ -179,8 +179,10 @@
   background-color: #FFF;
 }
 .skills-tiems.pagelink .gmail{
-  color: #c61c19;
   border: 1px solid #EB4131;
+}
+.skills-tiems.pagelink .gmail .gmail-tag{
+  color: #c61c19;
 }
 .profile-icon{
   width: 14px;

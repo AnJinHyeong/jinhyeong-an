@@ -19,6 +19,12 @@
   padding: 40px 50px;
   overflow: scroll;
 }
+.modal-sub-title{
+  color: #B3B4B6;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
 .modal-title > .title{
   font-size: 32px;
   font-weight: 700;
@@ -46,6 +52,22 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+.modal-mainimg > .img.funding{
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/img/project-banner/funding.png');
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.modal-mainimg > .img.bookin{
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/img/project-banner/bookin.png');
+  background-size: 93%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 .modal-prjinfo{
   
 }
@@ -70,12 +92,14 @@
   width: 75%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .modal-prjinfo > .info-item > .info-contant > strong{
   border: 1px solid #0959A9;
   border-radius: 4px;
   padding: 4px 6px;
   margin-right: 8px;
+  margin-bottom: 6px;
 }
 .modal-prjinfo > .info-item > .info-contant > strong:last-child{
   margin-right: 0;

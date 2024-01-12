@@ -50,9 +50,11 @@ const Chapter1 = () => {
                     <img className='profile-icon' src={require('../assets/img/skill-icon/likedin.png')}/>
                     Linkedin
                   </li>
-                  <li className='gmail' onClick={() => {}}>
-                    <img className='profile-icon' src={require('../assets/img/skill-icon/gmail.png')}/>
-                    Gmail
+                  <li className='gmail'>
+                    <a href="mailto:" className='gmail-tag'>
+                      <img className='profile-icon' src={require('../assets/img/skill-icon/gmail.png')}/>
+                      Gmail
+                    </a>
                   </li>
                 </ul>
               </div>

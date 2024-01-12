@@ -1,24 +1,24 @@
 import { useEffect } from 'react';
 
-const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
+const Projectmodal3 = ({displayFlag, modalFlagCon}) => {
 
   useEffect(() => {
-    document.getElementById("prj2modal").scrollTo(0,0);
+    document.getElementById("prj3modal").scrollTo(0,0);
   },[displayFlag])
 
   const openPrj = () => {
-    window.open('https://diary-f95ca.web.app/')
+    window.open('https://www.sysout.co.kr/fun_ding/')
   }
 
   return(
-    <div className={`modal ${displayFlag ? '' : 'blind'}`} onClick={(e) => {modalFlagCon('prj2')}}>
-      <div className="modal-inner" onClick={(e) => {e.stopPropagation(); e.preventDefault();}} id='prj2modal'>
+    <div className={`modal ${displayFlag ? '' : 'blind'}`} onClick={(e) => {modalFlagCon('prj3')}}>
+      <div className="modal-inner" onClick={(e) => {e.stopPropagation(); e.preventDefault();}} id='prj3modal'>
         <p className='modal-sub-title'>Project</p>
         <div className="modal-title">
-          <h2 className="title">DAILY DIARY</h2>
+          <h2 className="title">Fun_ding</h2>
         </div>
         <div className="modal-mainimg">
-          <div className='img diary'></div>
+          <div className='img funding'></div>
         </div>
 
         {/* 프로젝트 정보 */}
@@ -29,11 +29,13 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
               <strong>SKILLS</strong>
             </div>
             <div className="info-contant">
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/react.png')}/>REACT</strong>
               <strong><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript</strong>
+              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/jquery.png')}/>Jquery</strong>
               <strong><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS</strong>
               <strong><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/firebase.png')}/>Firebase</strong>
+              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/java.png')}/>Java</strong>
+              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/oracle.png')}/>oracle</strong>
+              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/spring.png')}/>Spring</strong>
             </div>
           </div>
 
@@ -42,7 +44,7 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
               <strong>진행기간</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing'>2022.04.27~2022.05.11</strong>
+              <strong className='writing'>2021.07.21~2021.08.04</strong>
             </div>
           </div>
 
@@ -51,7 +53,7 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
               <strong>개발인원</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing'>1명 (개발자 1명)</strong>
+              <strong className='writing'>4명 (개발자 4명)</strong>
             </div>
           </div>
 
@@ -60,7 +62,7 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
               <strong>기여도</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing'>5/5</strong>
+              <strong className='writing'>2/5</strong>
             </div>
           </div>
 
@@ -78,7 +80,7 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
               <strong>사이트</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing open' onClick={() => openPrj()}>https://diary-f95ca.web.app/</strong>
+              <strong className='writing open' onClick={() => openPrj()}>https://www.sysout.co.kr/fun_ding/</strong>
             </div>
           </div>
 
@@ -103,7 +105,8 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
           <p className='contant'>5가지의 감정 이모션을 선택하여 그날의 감정을 기록</p>
 
           <h2 className='title'>기능</h2>
-          <p className='contant'>Firebase를 기반으로 한 로그인 기능</p>
+          <p className='contant'>로그인</p>
+          <p className='contant'>회원가입</p>
           <p className='contant'>소셜 로그인(Facebook, Google)</p>
           <p className='contant'>다이어리 작성,수정 삭제</p>
           <p className='contant'>다이어리 글 즐겨찾기</p>
@@ -117,4 +120,4 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
 
 }
 
-export default Projectmodal2;
+export default Projectmodal3;

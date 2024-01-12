@@ -1,4 +1,11 @@
+import { useEffect } from 'react'
+
 const Projectmodal1 = ({displayFlag, modalFlagCon}) => {
+
+
+  useEffect(() => {
+    document.getElementById("prj1modal").scrollTo(0,0);
+  },[displayFlag])
 
   const openPrj = () => {
     window.open('http://localhost:3000/')
@@ -6,7 +13,8 @@ const Projectmodal1 = ({displayFlag, modalFlagCon}) => {
 
   return(
     <div className={`modal ${displayFlag ? '' : 'blind'}`} onClick={(e) => {modalFlagCon('prj1')}}>
-      <div className="modal-inner" onClick={(e) => {e.stopPropagation(); e.preventDefault();}}>
+      <div className="modal-inner" onClick={(e) => {e.stopPropagation(); e.preventDefault();}} id='prj1modal'>
+        <p className='modal-sub-title'>Project</p>
         <div className="modal-title">
           <h2 className="title">안진형의 포트폴리오</h2>
         </div>
@@ -34,7 +42,7 @@ const Projectmodal1 = ({displayFlag, modalFlagCon}) => {
               <strong>진행기간</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing'>2023.01 - 2023.01</strong>
+              <strong className='writing'>2023.01.01 - 2023.01.14</strong>
             </div>
           </div>
 
