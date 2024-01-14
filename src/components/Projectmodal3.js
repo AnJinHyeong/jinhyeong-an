@@ -62,7 +62,7 @@ const Projectmodal3 = ({displayFlag, modalFlagCon}) => {
               <strong>기여도</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing'>2/5</strong>
+              <strong className='writing'>3/5</strong>
             </div>
           </div>
 
@@ -107,7 +107,7 @@ const Projectmodal3 = ({displayFlag, modalFlagCon}) => {
           <h2 className='title'>기능</h2>
           <p className='contant'>로그인</p>
           <p className='contant'>회원가입</p>
-          <p className='contant'>소셜 로그인(Facebook, Google)</p>
+          <p className='contant'>펀딩 프로젝트 개설</p>
           <p className='contant'>다이어리 작성,수정 삭제</p>
           <p className='contant'>다이어리 글 즐겨찾기</p>
           <p className='contant'>다 쓴 다이어리 월별 조회</p>

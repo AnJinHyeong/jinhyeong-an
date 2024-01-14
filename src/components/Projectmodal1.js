@@ -8,7 +8,7 @@ const Projectmodal1 = ({displayFlag, modalFlagCon}) => {
   },[displayFlag])
 
   const openPrj = () => {
-    window.open('http://localhost:3000/')
+    window.open('https://jinhyeong-an.netlify.app/')
   }
 
   return(
@@ -34,6 +34,7 @@ const Projectmodal1 = ({displayFlag, modalFlagCon}) => {
               <strong><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript</strong>
               <strong><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS</strong>
               <strong><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML</strong>
+              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/netlify.png')}/>Netlify</strong>
             </div>
           </div>
 
@@ -78,7 +79,7 @@ const Projectmodal1 = ({displayFlag, modalFlagCon}) => {
               <strong>사이트</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing open' onClick={() => openPrj()}>http://localhost:3000/</strong>
+              <strong className='writing open' onClick={() => openPrj()}>https://jinhyeong-an.netlify.app/</strong>
             </div>
           </div>
 

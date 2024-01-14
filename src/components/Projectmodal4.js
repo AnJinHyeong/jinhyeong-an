@@ -62,7 +62,7 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
               <strong>기여도</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing'>3/5</strong>
+              <strong className='writing'>2/5</strong>
             </div>
           </div>
 

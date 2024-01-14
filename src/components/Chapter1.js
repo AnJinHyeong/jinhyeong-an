@@ -28,7 +28,7 @@ const Chapter1 = () => {
               </div>
               <div className='profile-item'>
                 <p className='profile-contant'>
-                  안녕하세요, 새로운 배움으로 끊임없이 성장하며 개발을 즐기는 프론트엔드 개발자 안진형 입니다.
+                  안녕하세요. 새로운 배움으로 끊임없이 성장하며 개발을 즐기는 프론트엔드 개발자 안진형 입니다.
                 </p>
                 <p className='profile-contant'>
                   개발 중 문제가 발생했을 때, 저는 여러 관점에서 문제를 살펴보고 해결하는 과정을 즐기며 성취감을 느낍니다.
@@ -51,7 +51,7 @@ const Chapter1 = () => {
                     Linkedin
                   </li>
                   <li className='gmail'>
-                    <a href="mailto:" className='gmail-tag'>
+                    <a href="mailto:lwwmwn545@gmail.com" className='gmail-tag'>
                       <img className='profile-icon' src={require('../assets/img/skill-icon/gmail.png')}/>
                       Gmail
                     </a>
@@ -91,6 +91,7 @@ const Chapter1 = () => {
                   <li><img className='skill-icon' src={require('../assets/img/skill-icon/mysql.png')}/>mysql</li>
                   <li><img className='skill-icon oracle' src={require('../assets/img/skill-icon/oracle.png')}/>oracl</li>
                   <li><img className='skill-icon' src={require('../assets/img/skill-icon/spring.png')}/>Spring</li>
+                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/netlify.png')}/>Netlify</li>
                 </ul>
               </div>
 
