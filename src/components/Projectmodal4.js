@@ -44,7 +44,7 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
               <strong>진행기간</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing'>2021.05.24~2021.06.06</strong>
+              <strong className='writing'>2021.05.24 ~ 2021.06.06</strong>
             </div>
           </div>
 
@@ -103,12 +103,13 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
         {/* 프로젝트 상세 내용 */}
         <div className='modal-project-detail'>
           <h2 className='title'>프로젝트 설명</h2>
-          <p className='contant'>온라인 책 쇼핑몰 사이트</p>
+          <p className='contant'>도서 쇼핑몰 사이트</p>
 
           <h2 className='title'>기능</h2>
           <p className='contant'>로그인</p>
           <p className='contant'>회원가입</p>
           <p className='contant'>사이트 관리 페이지(관리자)</p>
+          <p className='contant'>인기 도서 실시간랭킹 노출</p>
           <p className='contant'>도서 상품 구매</p>
           <p className='contant'>구매 상품 배송현황 조회</p>
           <p className='contant'>구매 상품 리뷰 작성 및 관리</p>

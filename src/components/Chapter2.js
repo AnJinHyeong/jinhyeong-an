@@ -23,9 +23,9 @@ const Chapter2 = () => {
                 <hr className='line' />
                 <div className='col-row'>
                   <div className='col-row-item'>
-                    <p className='col-row-contant'>Douzon Amaranth10 Front-End 개발</p>
-                    <p className="col-row-sub-contant">게시판 패키지 Front-End 신규개발 및 유지보수</p>
-                    <p className="col-row-sub-contant">업무관리 패키지 Front-End 신규개발 및 유지보수</p>
+                    <p className='col-row-contant'>Douzon Amaranth10 Frontend 개발</p>
+                    <p className="col-row-sub-contant">게시판 패키지 Frontend 신규개발 및 유지보수</p>
+                    <p className="col-row-sub-contant">업무관리 패키지 Frontend 신규개발 및 유지보수</p>
                   </div>
                   <div className='col-row-item'>
                     <p className='col-row-contant'>Douzon Amaranth10 Custom 개발 및 유지보수</p>

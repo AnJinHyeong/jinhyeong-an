@@ -42,7 +42,7 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
               <strong>진행기간</strong>
             </div>
             <div className="info-contant">
-              <strong className='writing'>2022.04.27~2022.05.11</strong>
+              <strong className='writing'>2022.04.27 ~ 2022.05.11</strong>
             </div>
           </div>
 

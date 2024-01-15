@@ -94,14 +94,13 @@
   padding-top: 40px;
 }
 .about{
-  margin-bottom: 80px;
 }
 .profile{
   display: flex;
   align-items: center;
   justify-content: start;
   padding: 0 15px;
-  margin: 40px auto 0;
+  margin: 80px auto;
 }
 .profile-img{
   width: 200px;
