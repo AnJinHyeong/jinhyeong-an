@@ -103,7 +103,8 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
           <p className='contant'>5가지의 감정 이모션을 선택하여 그날의 감정을 기록</p>
 
           <h2 className='title'>기능</h2>
-          <p className='contant'>Firebase를 기반으로 한 로그인 기능</p>
+          <p className='contant'>로그인</p>
+          <p className='contant'>회원가입</p>
           <p className='contant'>소셜 로그인(Facebook, Google)</p>
           <p className='contant'>다이어리 작성,수정 삭제</p>
           <p className='contant'>다이어리 글 즐겨찾기</p>

@@ -90,10 +90,12 @@ const Projectmodal3 = ({displayFlag, modalFlagCon}) => {
 
         {/* 프로젝트 이미지 스크린샷 */}
         <div className='modal-project-shotimg'>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot1.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot2.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot3.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot4.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/funding/shot1.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/funding/shot2.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/funding/shot3.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/funding/shot4.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/funding/shot5.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/funding/shot6.png')}/>
         </div>
 
         <div className='modal-line'></div>
@@ -101,17 +103,20 @@ const Projectmodal3 = ({displayFlag, modalFlagCon}) => {
         {/* 프로젝트 상세 내용 */}
         <div className='modal-project-detail'>
           <h2 className='title'>프로젝트 설명</h2>
-          <p className='contant'>나의 하루 일상을 기록하는 다이어리 사이트</p>
-          <p className='contant'>5가지의 감정 이모션을 선택하여 그날의 감정을 기록</p>
+          <p className='contant'>크라우드펀딩은 군중 또는 다수를 의미하는 영어단어 크라우드(Crowd)와 자금조달을 뜻하는 펀딩(Funding)을 조합한 용어입니다.</p>
+          <p className='contant'>크라우드 펀딩 플랫폼으로 사용자들의 아이디어와 아이템을 공유하고 마음에 드는 아이템이나 관심이 가는 아이디어에 후원 할 수 있는 사이트.</p>
 
           <h2 className='title'>기능</h2>
           <p className='contant'>로그인</p>
           <p className='contant'>회원가입</p>
-          <p className='contant'>펀딩 프로젝트 개설</p>
-          <p className='contant'>다이어리 작성,수정 삭제</p>
-          <p className='contant'>다이어리 글 즐겨찾기</p>
-          <p className='contant'>다 쓴 다이어리 월별 조회</p>
-          <p className='contant'>Firebase를 사용하여 Database 구현</p>
+          <p className='contant'>회원 정보 수정</p>
+          <p className='contant'>펀딩 프로젝트 개설 및 관리</p>
+          <p className='contant'>프로젝트 후원</p>
+          <p className='contant'>이메일 인증</p>
+          <p className='contant'>인증된 이메일로 비밀번호 찾기</p>
+          <p className='contant'>금액충전(kakaopay 결재 충전)</p>
+          <p className='contant'>자유게시판</p>
+          <p className='contant'>자유게시판 글 작성,수정,삭제</p>
         </div>
 
       </div>
