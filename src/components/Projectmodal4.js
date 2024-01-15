@@ -90,10 +90,12 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
 
         {/* 프로젝트 이미지 스크린샷 */}
         <div className='modal-project-shotimg'>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot1.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot2.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot3.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot4.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot1.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot2.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot3.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot4.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot5.png')}/>
+          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot6.png')}/>
         </div>
 
         <div className='modal-line'></div>
@@ -106,10 +108,14 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
           <h2 className='title'>기능</h2>
           <p className='contant'>로그인</p>
           <p className='contant'>회원가입</p>
-          <p className='contant'>다이어리 작성,수정 삭제</p>
-          <p className='contant'>다이어리 글 즐겨찾기</p>
-          <p className='contant'>다 쓴 다이어리 월별 조회</p>
-          <p className='contant'>Firebase를 사용하여 Database 구현</p>
+          <p className='contant'>사이트 관리 페이지(관리자)</p>
+          <p className='contant'>도서 상품 구매</p>
+          <p className='contant'>구매 상품 배송현황 조회</p>
+          <p className='contant'>구매 상품 리뷰 작성 및 관리</p>
+          <p className='contant'>도서 상품 검색</p>
+          <p className='contant'>관심 상품 장바구니 및 좋아요</p>
+          <p className='contant'>고객센터 1:1문의, 확인</p>
+          <p className='contant'>이벤트 및 공지 확인</p>
         </div>
 
       </div>

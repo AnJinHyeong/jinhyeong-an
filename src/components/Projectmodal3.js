@@ -109,7 +109,7 @@ const Projectmodal3 = ({displayFlag, modalFlagCon}) => {
           <h2 className='title'>기능</h2>
           <p className='contant'>로그인</p>
           <p className='contant'>회원가입</p>
-          <p className='contant'>회원 정보 수정</p>
+          <p className='contant'>사이트 관리 페이지(관리자)</p>
           <p className='contant'>펀딩 프로젝트 개설 및 관리</p>
           <p className='contant'>프로젝트 후원</p>
           <p className='contant'>이메일 인증</p>
