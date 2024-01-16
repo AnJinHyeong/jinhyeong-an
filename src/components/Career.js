@@ -95,7 +95,7 @@ const Career = () => {
               </div>
             </div>
 
-            <div className='career-row'>
+            {/* <div className='career-row'>
               <div className='career-col-3'>
                 <strong>2020.08 ~ 2021.01</strong>
                 <strong className='sub'>
@@ -125,7 +125,7 @@ const Career = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
