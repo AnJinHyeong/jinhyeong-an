@@ -42,33 +42,3 @@
   background-color: #FFF;
   color: #0959A9;
 }
-
-
-
-
-
-
-
-
-
-/**** 컨택트 영역 ****/
-.contact{
-  position: relative;
-  background-color: #FFF;
-}
-.contact-box{
-}
-.contact-item{
-  width: 70vw;
-  height: 500px;
-  border: 1px solid #0959A9;
-  margin: 30px auto;
-}
-.contact-item-box{
-  padding: 10px 15px;
-  margin: 0 auto;
-  width: 80%;
-}
-.contact-title{
-
-}

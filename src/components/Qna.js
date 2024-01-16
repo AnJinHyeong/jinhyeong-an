@@ -1,9 +1,9 @@
 const Contact = () => {
 
   return(
-    <div className="contact">
+    <div className="qna">
       <div className="inner">
-        <div className="contact-box">
+        <div className="qna-box">
           
         </div>
       </div>
