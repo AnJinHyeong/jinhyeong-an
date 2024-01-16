@@ -1,8 +1,10 @@
+import '../css/aboutskill.css'
+
 /**
- * Chapter1
+ * About & Skill
  * 개인 역량 소개 영역
  */
-const Chapter1 = () => {
+const Aboutskill = () => {
 
   const openGithub = () => {
     window.open('https://github.com/AnJinHyeong');
@@ -13,7 +15,7 @@ const Chapter1 = () => {
   }
 
   return(
-    <div className="chapter1">
+    <div className="aboutskill">
       <div className="inner">
 
         <div className="about">
@@ -118,4 +120,4 @@ const Chapter1 = () => {
 
 }
 
-export default Chapter1;
+export default Aboutskill;

@@ -13,6 +13,7 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
   return(
     <div className={`modal ${displayFlag ? '' : 'blind'}`} onClick={(e) => {modalFlagCon('prj4')}}>
       <div className="modal-inner" onClick={(e) => {e.stopPropagation(); e.preventDefault();}} id='prj4modal'>
+        <p className='close-btn' onClick={(e) => {modalFlagCon('prj4')}}>X</p>
         <p className='modal-sub-title'>Project</p>
         <div className="modal-title">
           <h2 className="title">BOOKin</h2>

@@ -1,0 +1,114 @@
+/**** Project 영역 ****/
+.project{
+  position: relative;
+}
+.project-contant{
+  margin: 100px auto;
+}
+.grid{
+  padding: 0 15px;
+  margin: 40px auto 0;
+}
+.grid_list{
+  grid-column-gap: 8px;
+  grid-row-gap: 28px;
+  -webkit-column-gap: 8px;
+  -moz-column-gap: 8px;
+  column-gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  row-gap: 28px;
+}
+.grid_item{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+}
+.grid_item .item_inner{
+  color: #8D9093;
+  border-radius: 12px;
+  display: block;
+}
+.grid_item .item_inner:hover{
+  color: #0959A9;
+}
+.project-thumb{
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+}
+.project-img{
+  height: auto;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+}
+.project-img:hover{
+  filter: grayscale(0%);
+}
+.project-img.project1{
+  background-image: url("../assets/img/project-banner/anjinhyeong.png");
+  background-size: 200%;
+  background-position: 50% 55%;
+}
+.project-img.project2{
+  background-image: url("../assets/img/project-banner/daily-diary.png");
+  background-size: 150%;
+  background-position: 50% 55%;
+}
+.project-img.project3{
+  background-image: url("../assets/img/project-banner/funding.png");
+  background-size: 190%;
+  background-position: 50% 55%;
+}
+.project-img.project4{
+  background-image: url("../assets/img/project-banner/bookin.png");
+  background-size: 186%;
+  background-position: 15% 55%;
+}
+.project-info{
+  margin: 5px 0 0 5px;
+}
+.project-title{
+  font-size: 14px;
+}
+
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px){
+ 
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
+@media all and (min-width:480px) and (max-width:767px) {
+  .project-contant{
+    margin: 0 auto;
+  }
+  .grid_list{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+@media all and (max-width:479px){
+  .project > .inner {
+    padding: 15px 20px;
+  }
+  .project-contant{
+    margin: 0 auto;
+  }
+  .grid_list{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+ 
+}

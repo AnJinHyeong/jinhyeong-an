@@ -3,6 +3,7 @@ import { faAngleDown  } from '@fortawesome/free-solid-svg-icons'
 import { gsap } from "gsap";
 import { useEffect, useRef } from "react";
 
+import '../css/slogan.css'
 
 /**
  * slogan

@@ -1,0 +1,118 @@
+/**** 챕터2 영역 ****/
+/* 커리어 영역 */
+.career{
+  position: relative;
+}
+.career-item{
+  width: 100%;
+  color: #333;
+  margin: 20px auto;
+}
+.career-row{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 0;
+  margin: 0 auto 60px;
+}
+.career-row:last-child{
+  margin-bottom: 0;
+}
+.career-col-3{
+  width: 30%;
+  padding: 0 15px;
+  font-size: 13px;
+}
+.career-col-3 strong{
+  font-size: 20px;
+  margin-right: 5px;
+  display: block;
+  margin-bottom: 5px;
+}
+.career-col-3 strong.sub{
+  font-size: 15px;
+  margin: 0;
+}
+.career-col-3 .sub .company{
+  margin-right: 5px;
+}
+.career-col-3 .sub .department{
+  font-size: 12px;
+}
+.career-col-7{
+  width: 70%;
+  padding: 0 15px;
+}
+.career-col-7 .line{
+  border-top: 1px solid #000;
+  margin: 10px auto;
+}
+.col-row{
+
+}
+.col-row-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 3px;
+  margin-bottom: 10px;
+}
+.col-row-contant{
+  font-size: 20px;
+  line-height: 1.2 !important;
+}
+.col-row-sub-contant{
+  font-size: 16px;
+  line-height: 1.2 !important;
+  margin-top: 7px;
+  margin-left: 10px;
+  color: #8c8f92;
+}
+
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px){
+ 
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
+@media all and (min-width:480px) and (max-width:767px) {
+  .career-row{
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .career-col-3{
+    width: 100%;
+  }
+  .career-col-7{
+    width: 100%;
+  }
+  .col-row-contant{
+    font-size: 18px;
+  }
+  .col-row-sub-contant{
+    font-size: 14px;
+  }
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+@media all and (max-width:479px){
+  .career > .inner{
+    padding: 15px 20px;
+  }
+  .career-row{
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .career-col-3{
+    width: 100%;
+  }
+  .career-col-7{
+    width: 100%;
+  }
+  .col-row-contant{
+    font-size: 18px;
+  }
+  .col-row-sub-contant{
+    font-size: 14px;
+  }
+}

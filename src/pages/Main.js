@@ -2,9 +2,9 @@ import { SectionsContainer, Section, Footer } from 'react-fullpage';
 import Mainbanner from "../components/Mainbanner";
 import Slogan from "../components/Slogan";
 import Chapter from "../components/Chapter";
+import Contact from '../components/Contact';
 
 import '../css/main.css'
-import Contact from '../components/Contact';
 
 const Main = () => {
 

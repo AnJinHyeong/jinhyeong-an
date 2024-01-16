@@ -1,21 +1,22 @@
 import Projectmodal1 from "./Projectmodal1";
 import Projectmodal2 from "./Projectmodal2";
-import '../css/modal.css'
 import { useState } from "react";
 import Projectmodal3 from "./Projectmodal3";
 import Projectmodal4 from "./Projectmodal4";
 
+import '../css/modal.css'
+import '../css/project.css'
+
 /**
- * Chapter3
+ * Project
  * 프로젝트 설명 영역
  */
-const Chapter3 = () => {
+const Project = () => {
   
   const [prjModal1, setPrjModal1] = useState(false);
   const [prjModal2, setPrjModal2] = useState(false);
   const [prjModal3, setPrjModal3] = useState(false);
   const [prjModal4, setPrjModal4] = useState(false);
-
 
 
   const modalFlagCon = (val) => {
@@ -32,10 +33,10 @@ const Chapter3 = () => {
   }
 
   return(
-    <div className="chapter3">
+    <div className="project">
       <div className="inner">
 
-        <div className="project">
+        <div className="project-contant">
           <h2 className="title">PROJECTS</h2>
 
           <div className="grid">
@@ -116,4 +117,4 @@ const Chapter3 = () => {
 
 }
 
-export default Chapter3;
+export default Project;

@@ -1,25 +1,27 @@
+import '../css/career.css'
+
 /**
  * Chapter2
  * 커리어 설명 영역 
  */
-const Chapter2 = () => {
+const Career = () => {
 
   return(
-    <div className="chapter2">
+    <div className="career">
       <div className="inner">
 
-      <div className="cureer">
+      <div>
           <h2 className="title">CAREER</h2>
-          <div className="cureer-item">
-            <div className='cureer-row'>
-              <div className='cureer-col-3'>
+          <div className="career-item">
+            <div className='career-row'>
+              <div className='career-col-3'>
                 <strong>2022.08 ~ 2023.09</strong>
                 <strong className='sub'>
                   <span className='company'>엠케이원</span>
                   <span className='department'>개발사업1부</span>
                 </strong>
               </div>
-              <div className='cureer-col-7'>
+              <div className='career-col-7'>
                 <hr className='line' />
                 <div className='col-row'>
                   <div className='col-row-item'>
@@ -28,7 +30,8 @@ const Chapter2 = () => {
                     <p className="col-row-sub-contant">업무관리 패키지 Frontend 신규개발 및 유지보수</p>
                   </div>
                   <div className='col-row-item'>
-                    <p className='col-row-contant'>Douzon Amaranth10 Custom 개발 및 유지보수</p>
+                    <p className='col-row-contant'>Douzon Amaranth10 Custom 개발</p>
+                    <p className="col-row-sub-contant">Amaranth10 전표 패키지 커스텀 신규개발</p>
                   </div>
                   <div className='col-row-item'>
                     <p className='col-row-contant'>SKILLS</p>
@@ -49,15 +52,15 @@ const Chapter2 = () => {
               </div>
             </div>
             
-            <div className='cureer-row'>
-              <div className='cureer-col-3'>
+            <div className='career-row'>
+              <div className='career-col-3'>
                 <strong>2021.08 ~ 2022.01</strong>
                 <strong className='sub'>
                   <span className='company'>윈즈시스템</span>
                   <span className='department'>서비스사업본부 연구개발팀</span>
                 </strong>
               </div>
-              <div className='cureer-col-7'>
+              <div className='career-col-7'>
                 <hr className='line' />
                 <div className='col-row'>
                   <div className='col-row-item'>
@@ -92,15 +95,15 @@ const Chapter2 = () => {
               </div>
             </div>
 
-            <div className='cureer-row'>
-              <div className='cureer-col-3'>
+            <div className='career-row'>
+              <div className='career-col-3'>
                 <strong>2020.08 ~ 2021.01</strong>
                 <strong className='sub'>
                   <span className='company'>알체라</span>
                   <span className='department'>Business Operation Team</span>
                 </strong>
               </div>
-              <div className='cureer-col-7'>
+              <div className='career-col-7'>
                 <hr className='line' />
                 <div className='col-row'>
                   <div className='col-row-item'>
@@ -132,4 +135,4 @@ const Chapter2 = () => {
 
 }
 
-export default Chapter2;
+export default Career;

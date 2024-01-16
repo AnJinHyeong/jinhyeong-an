@@ -1,0 +1,91 @@
+/**** 슬로건 영역 ****/
+.slogan {
+  height: 100vh;
+  position: relative;
+  background-color: #FFF;
+  color: #0959A9;
+}
+.slogan .inner .contant{
+  width: 100%;
+  margin: 50px auto 150px;
+}
+.slogan .inner .contant > p{
+  font-size: 62px;
+  font-weight: 500;
+  font-family: 'Noto Serif KR', serif;
+  line-height: 1.5;
+}
+.slogan .inner .contant-eng{
+  width: 100%;
+  margin: 0 auto;
+}
+.slogan .inner .contant-eng > p{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Noto Serif KR', serif;
+  line-height: 1.5;
+}
+.dot{
+  font-weight: 400;
+  font-size: 50px;
+}
+.downpoint{
+  position: absolute;
+  bottom: 30px;
+  right: 50%;
+}
+.icon.down{
+  font-size: 30px;
+  color: #0959A9;
+}
+
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width:768px) and (max-width:1023px){
+  .slogan .inner .contant{
+    margin: 50px auto 130px;
+  }
+  .slogan .inner .contant > p{
+    font-size: 47px;
+  }
+  .slogan .inner .contant-eng > p{
+    font-size: 18px;
+  }
+  .dot{
+    font-size: 30px;
+  }
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
+@media all and (min-width:480px) and (max-width:767px) {
+  .slogan .inner .contant{
+    margin: 50px auto 130px;
+  }
+  .slogan .inner .contant > p{
+    font-size: 35px;
+  }
+  .slogan .inner .contant-eng > p{
+    font-size: 16px;
+  }
+  .dot{
+    font-size: 30px;
+  }
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+@media all and (max-width:479px){
+  .slogan > .inner {
+    padding: 15px 20px;
+  }
+  .slogan .inner .contant{
+    margin: 50px auto 170px;
+  }
+  .slogan .inner .contant > p{
+    font-size: 24px;
+  }
+  .slogan .inner .contant-eng > p{
+    font-size: 16px;
+  }
+  .dot{
+    font-size: 25px;
+  }
+}
