@@ -25,7 +25,7 @@ const Main = () => {
       <Mainbanner />
       <Slogan />
       <Chapter />
-      <Qna />
+      {/* <Qna /> */}
     </div>
   )
 
