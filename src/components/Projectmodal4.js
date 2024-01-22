@@ -104,7 +104,7 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
         {/* 프로젝트 상세 내용 */}
         <div className='modal-project-detail'>
           <h2 className='title'>프로젝트 설명</h2>
-          <p className='contant'>도서 쇼핑몰 사이트</p>
+          <p className='contant'>코로나 시기에 맞춰서 기획된 사이트로 오프라인 보다 온라인 이용률이 높은 점을 고려하여 개발된 도서 쇼핑몰 사이트</p>
 
           <h2 className='title'>기능</h2>
           <p className='contant'>로그인</p>

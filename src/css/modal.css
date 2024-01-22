@@ -14,7 +14,7 @@
 .modal-inner{
   background-color: #FFF;
   width:  70vw;
-  max-width: 730px;
+  max-width: 1280px;
   height: 90vh;
   padding: 40px 50px;
   overflow: scroll;
@@ -168,6 +168,7 @@
   font-size: 14px;
   color: #B3B4B6;
   margin-bottom: 10px;
+  line-height: 1.2;
 }
 
 /* 테블릿 세로 (해상도 768px ~ 1023px)*/

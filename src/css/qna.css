@@ -1,9 +1,15 @@
-
-
-/**** 컨택트 영역 ****/
+/**** QnA 영역 ****/
 .qna{
   position: relative;
   background-color: #FFF;
+  height: 100vh;
 }
 .qna-box{
+  padding: 40px 0;
+  text-align: center;
+}
+.title-qna{
+  font-size: 100px;
+  font-family: 'Montserrat','GmarketSans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+  font-weight: 700;
 }

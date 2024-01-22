@@ -1,10 +1,12 @@
-const Contact = () => {
+import '../css/qna.css'
+
+const Qna = () => {
 
   return(
     <div className="qna">
       <div className="inner">
         <div className="qna-box">
-          
+          <h2 className='title'>Q&A</h2>
         </div>
       </div>
     </div>
@@ -12,4 +14,4 @@ const Contact = () => {
 
 }
 
-export default Contact;
+export default Qna;
