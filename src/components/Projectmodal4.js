@@ -105,6 +105,8 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
         <div className='modal-project-detail'>
           <h2 className='title'>프로젝트 설명</h2>
           <p className='contant'>코로나 시기에 맞춰서 기획된 사이트로 오프라인 보다 온라인 이용률이 높은 점을 고려하여 개발된 도서 쇼핑몰 사이트</p>
+          <p className='contant'>도서 쇼핑몰 사이트로 상품 관리 및 배송,리뷰,매출 등의 관리가 가능하도록 설계</p>
+          <p className='contant'>쇼핑몰에서는 상품의 관리가 중요하다고 생각되어 상품을 관리할 수 있는 관리자 사이트를 추가로 개발</p>
 
           <h2 className='title'>기능</h2>
           <p className='contant'>로그인</p>
