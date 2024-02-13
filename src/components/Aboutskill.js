@@ -88,6 +88,7 @@ const Aboutskill = () => {
               <div className='skills-item-box'>
                 <h2 className='skills-title'>사용할 수 있어요</h2>
                 <ul className="skills-tiems">
+                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/ts.png')}/>Typescript</li>
                   <li><img className='skill-icon' src={require('../assets/img/skill-icon/jquery.png')}/>jQuery</li>
                   <li><img className='skill-icon' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
                   <li><img className='skill-icon' src={require('../assets/img/skill-icon/mysql.png')}/>mysql</li>
