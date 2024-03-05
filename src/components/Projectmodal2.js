@@ -30,11 +30,11 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
               <strong>SKILLS</strong>
             </div>
             <div className="info-contant">
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/react.png')}/>REACT</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/firebase.png')}/>Firebase</strong>
+              <strong><img className='skill-icon' alt='React' src={require('../assets/img/skill-icon/react.png')}/>REACT</strong>
+              <strong><img className='skill-icon' alt='Javascript' src={require('../assets/img/skill-icon/js.png')}/>Javascript</strong>
+              <strong><img className='skill-icon' alt='CSS' src={require('../assets/img/skill-icon/css3.png')}/>CSS</strong>
+              <strong><img className='skill-icon' alt='HTML' src={require('../assets/img/skill-icon/html5.png')}/>HTML</strong>
+              <strong><img className='skill-icon' alt='Firebase' src={require('../assets/img/skill-icon/firebase.png')}/>Firebase</strong>
             </div>
           </div>
 
@@ -89,10 +89,10 @@ const Projectmodal2 = ({displayFlag, modalFlagCon}) => {
 
         {/* 프로젝트 이미지 스크린샷 */}
         <div className='modal-project-shotimg'>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot1.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot2.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot3.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/diary/shot4.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지1' src={require('../assets/img/project-shot/diary/shot1.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지2' src={require('../assets/img/project-shot/diary/shot2.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지3' src={require('../assets/img/project-shot/diary/shot3.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지4' src={require('../assets/img/project-shot/diary/shot4.png')}/>
         </div>
 
         <div className='modal-line'></div>

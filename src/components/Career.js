@@ -37,14 +37,14 @@ const Career = () => {
                     <p className='col-row-contant'>SKILLS</p>
                     <p className='col-row-sub-contant'>
                      <ul className="skills-tiems row">
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript(ES6+)</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/react.png')}/>React.js</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML5</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS3</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/git.png')}/>Git</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/mysql.png')}/>mysql</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/spring.png')}/>Spring</li>
+                        <li><img className='skill-icon' alt='Javascript(ES6)' src={require('../assets/img/skill-icon/js.png')}/>Javascript(ES6+)</li>
+                        <li><img className='skill-icon' alt='React.js' src={require('../assets/img/skill-icon/react.png')}/>React.js</li>
+                        <li><img className='skill-icon' alt='HTML5' src={require('../assets/img/skill-icon/html5.png')}/>HTML5</li>
+                        <li><img className='skill-icon' alt='CSS3' src={require('../assets/img/skill-icon/css3.png')}/>CSS3</li>
+                        <li><img className='skill-icon' alt='Git' src={require('../assets/img/skill-icon/git.png')}/>Git</li>
+                        <li><img className='skill-icon' alt='Java' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
+                        <li><img className='skill-icon' alt='mysql' src={require('../assets/img/skill-icon/mysql.png')}/>mysql</li>
+                        <li><img className='skill-icon' alt='Spring' src={require('../assets/img/skill-icon/spring.png')}/>Spring</li>
                       </ul>
                     </p>
                   </div>
@@ -79,15 +79,15 @@ const Career = () => {
                     <p className='col-row-contant'>SKILLS</p>
                     <p className='col-row-sub-contant'>
                       <ul className="skills-tiems row">
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript(ES6+)</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML5</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS3</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/git.png')}/>Git</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/jquery.png')}/>jQuery</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
-                        <li><img className='skill-icon oracle' src={require('../assets/img/skill-icon/oracle.png')}/>oracl</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/jsp.png')}/>JSP</li>
-                        <li><img className='skill-icon' src={require('../assets/img/skill-icon/c#.png')}/>C#</li>
+                        <li><img className='skill-icon' alt='Javascript(ES6)' src={require('../assets/img/skill-icon/js.png')}/>Javascript(ES6+)</li>
+                        <li><img className='skill-icon' alt='HTML5' src={require('../assets/img/skill-icon/html5.png')}/>HTML5</li>
+                        <li><img className='skill-icon' alt='CSS3' src={require('../assets/img/skill-icon/css3.png')}/>CSS3</li>
+                        <li><img className='skill-icon' alt='Git' src={require('../assets/img/skill-icon/git.png')}/>Git</li>
+                        <li><img className='skill-icon' alt='jQuery' src={require('../assets/img/skill-icon/jquery.png')}/>jQuery</li>
+                        <li><img className='skill-icon' alt='Java' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
+                        <li><img className='skill-icon oracle' alt='oracle' src={require('../assets/img/skill-icon/oracle.png')}/>oracl</li>
+                        <li><img className='skill-icon' alt='JSP' src={require('../assets/img/skill-icon/jsp.png')}/>JSP</li>
+                        <li><img className='skill-icon' alt='C#' src={require('../assets/img/skill-icon/c#.png')}/>C#</li>
                       </ul>
                     </p>
                   </div>

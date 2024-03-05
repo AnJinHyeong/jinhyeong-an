@@ -75,38 +75,38 @@ const Aboutskill = () => {
               <div className='skills-item-box'>
                 <h2 className='skills-title'>사용하기 수월해요</h2>
                 <ul className="skills-tiems">
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript(ES6+)</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/react.png')}/>React.js</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML5</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS3</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/sass.png')}/>SASS</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/git.png')}/>Git</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/github.png')}/>GitHub</li>
+                  <li><img className='skill-icon' alt='Javascript(ES6)' src={require('../assets/img/skill-icon/js.png')}/>Javascript(ES6+)</li>
+                  <li><img className='skill-icon' alt='React.js' src={require('../assets/img/skill-icon/react.png')}/>React.js</li>
+                  <li><img className='skill-icon' alt='HTML5' src={require('../assets/img/skill-icon/html5.png')}/>HTML5</li>
+                  <li><img className='skill-icon' alt='CSS3' src={require('../assets/img/skill-icon/css3.png')}/>CSS3</li>
+                  <li><img className='skill-icon' alt='SASS' src={require('../assets/img/skill-icon/sass.png')}/>SASS</li>
+                  <li><img className='skill-icon' alt='Git' src={require('../assets/img/skill-icon/git.png')}/>Git</li>
+                  <li><img className='skill-icon' alt='Github' src={require('../assets/img/skill-icon/github.png')}/>GitHub</li>
                 </ul>
               </div>
 
               <div className='skills-item-box'>
                 <h2 className='skills-title'>사용할 수 있어요</h2>
                 <ul className="skills-tiems">
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/ts.png')}/>Typescript</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/jquery.png')}/>jQuery</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/mysql.png')}/>mysql</li>
-                  <li><img className='skill-icon oracle' src={require('../assets/img/skill-icon/oracle.png')}/>oracl</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/spring.png')}/>Spring</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/netlify.png')}/>Netlify</li>
+                  <li><img className='skill-icon' alt='Typescript' src={require('../assets/img/skill-icon/ts.png')}/>Typescript</li>
+                  <li><img className='skill-icon' alt='jQuery' src={require('../assets/img/skill-icon/jquery.png')}/>jQuery</li>
+                  <li><img className='skill-icon' alt='Java' src={require('../assets/img/skill-icon/java.png')}/>Java</li>
+                  <li><img className='skill-icon' alt='mysql' src={require('../assets/img/skill-icon/mysql.png')}/>mysql</li>
+                  <li><img className='skill-icon oracle' alt='oracle' src={require('../assets/img/skill-icon/oracle.png')}/>oracl</li>
+                  <li><img className='skill-icon' alt='Spring' src={require('../assets/img/skill-icon/spring.png')}/>Spring</li>
+                  <li><img className='skill-icon' alt='Netlify' src={require('../assets/img/skill-icon/netlify.png')}/>Netlify</li>
                 </ul>
               </div>
 
               <div className='skills-item-box'>
                 <h2 className='skills-title'>사용해봤어요</h2>
                 <ul className="skills-tiems">
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/python.png')}/>python</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/jsp.png')}/>JSP</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/c.png')}/>C</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/c#.png')}/>C#</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/docker.png')}/>docker</li>
-                  <li><img className='skill-icon' src={require('../assets/img/skill-icon/firebase.png')}/>firebase</li>
+                  <li><img className='skill-icon' alt='python' src={require('../assets/img/skill-icon/python.png')}/>python</li>
+                  <li><img className='skill-icon' alt='JSP' src={require('../assets/img/skill-icon/jsp.png')}/>JSP</li>
+                  <li><img className='skill-icon' alt='C' src={require('../assets/img/skill-icon/c.png')}/>C</li>
+                  <li><img className='skill-icon' alt='C#' src={require('../assets/img/skill-icon/c#.png')}/>C#</li>
+                  <li><img className='skill-icon' alt='docker' src={require('../assets/img/skill-icon/docker.png')}/>docker</li>
+                  <li><img className='skill-icon' alt='firebase' src={require('../assets/img/skill-icon/firebase.png')}/>firebase</li>
                 </ul>
               </div>
 

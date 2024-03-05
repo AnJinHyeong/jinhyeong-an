@@ -30,13 +30,13 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
               <strong>SKILLS</strong>
             </div>
             <div className="info-contant">
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/js.png')}/>Javascript</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/jquery.png')}/>Jquery</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/css3.png')}/>CSS</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/html5.png')}/>HTML</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/java.png')}/>Java</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/oracle.png')}/>oracle</strong>
-              <strong><img className='skill-icon' src={require('../assets/img/skill-icon/spring.png')}/>Spring</strong>
+              <strong><img className='skill-icon' alt='Javascript' src={require('../assets/img/skill-icon/js.png')}/>Javascript</strong>
+              <strong><img className='skill-icon' alt='jQuery' src={require('../assets/img/skill-icon/jquery.png')}/>jQuery</strong>
+              <strong><img className='skill-icon' alt='CSS' src={require('../assets/img/skill-icon/css3.png')}/>CSS</strong>
+              <strong><img className='skill-icon' alt='HTML' src={require('../assets/img/skill-icon/html5.png')}/>HTML</strong>
+              <strong><img className='skill-icon' alt='Java' src={require('../assets/img/skill-icon/java.png')}/>Java</strong>
+              <strong><img className='skill-icon' alt='oracle' src={require('../assets/img/skill-icon/oracle.png')}/>oracle</strong>
+              <strong><img className='skill-icon' alt='Spring' src={require('../assets/img/skill-icon/spring.png')}/>Spring</strong>
             </div>
           </div>
 
@@ -91,12 +91,12 @@ const Projectmodal4 = ({displayFlag, modalFlagCon}) => {
 
         {/* 프로젝트 이미지 스크린샷 */}
         <div className='modal-project-shotimg'>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot1.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot2.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot3.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot4.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot5.png')}/>
-          <img className='project-shot-item' src={require('../assets/img/project-shot/bookin/shot6.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지1' src={require('../assets/img/project-shot/bookin/shot1.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지2' src={require('../assets/img/project-shot/bookin/shot2.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지3' src={require('../assets/img/project-shot/bookin/shot3.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지4' src={require('../assets/img/project-shot/bookin/shot4.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지5' src={require('../assets/img/project-shot/bookin/shot5.png')}/>
+          <img className='project-shot-item' alt='프로젝트 이미지6' src={require('../assets/img/project-shot/bookin/shot6.png')}/>
         </div>
 
         <div className='modal-line'></div>
